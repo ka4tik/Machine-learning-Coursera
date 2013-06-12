@@ -10,8 +10,8 @@ g = zeros(size(z));
 %               vector or scalar).
 
 sizez=size(z);
-for i=1:sizez(1,1),
-   for j=1:sizez(1,2),
+for i=1:size(1,1),
+   for j=1:size(1,2),
        g(i,j)=(1)/(1+ exp(-z(i,j)));
     end;
 end;
