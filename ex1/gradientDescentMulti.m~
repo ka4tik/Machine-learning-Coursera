@@ -19,7 +19,7 @@ for iter = 1:num_iters
     
 
       %vectorized implementation 
-     theta = theta - alpha/m * X' * (X*theta - y);
+     theta = theta - alpha/m * X' * (X*theta - y)
     
 
 

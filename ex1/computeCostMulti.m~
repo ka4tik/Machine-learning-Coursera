@@ -14,10 +14,10 @@ J = 0;
 %               You should set J to the cost.
 
 n=size(X,2);
-%disp(n);
-%disp(m);
-%disp(size(theta));
-%disp(size(y));
+disp(n);
+disp(m);
+disp(size(theta));
+disp(size(y));
 theta=theta';
 J=0;
 for i=1:m,
